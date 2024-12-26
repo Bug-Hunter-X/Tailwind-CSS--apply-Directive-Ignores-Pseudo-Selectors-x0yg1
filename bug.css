@@ -1,0 +1,1 @@
+This bug occurs when using Tailwind's `@apply` directive with a utility class that contains a pseudo-selector, like `:hover`, `:focus`, or `:active`.  The `@apply` directive only applies the styles of the base class, ignoring the styles specified for the pseudo-selector. For example, applying `@apply hover:bg-blue-500` will not change the background color on hover.
